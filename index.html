@@ -1,1046 +1,333 @@
 
-
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" initial-scale=1.0, shrink-to-fit=no/>
-<!-- TemplateBeginEditable name="doctitle" -->
-<title>pysensing</title>
-
-<link rel="stylesheet" href="/static/css/pysensing.css">
-<link href='http://fonts.googleapis.com/css?family=Condiment' rel='stylesheet' type='text/css'>
-<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.css" type='text/css'>
-
-<!--<script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script> -->
-
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js" type="text/javascript"></script>
-<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
-
-<script src="/static/js/pysensing.js"></script>
- <script src="/static/js/script.js"></script>
-
-<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
-<!--<script src="https://api4.windy.com/assets/libBoot.js"></script>-->
-
-<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
-
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>陈伟课题组</title>
+    <meta name="description" content="陈伟课题组">
+    <meta name="keywords" content="陈伟课题组">
+    <meta name="author" content="">  
+    <link rel="stylesheet" href="css/boot.main.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/touchTouch.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/kwicks-slider.css" type="text/css" media="screen">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/video/vidshow.mini.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=XPGjkSLCzFOqZpkpSAA5pICeS4O1y80U"></script>
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+    <![endif]-->  
 </head>
 
-<body>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-    <div class="navbar-header">
-        <a class="navbar-brand">生态环境遥感机理与应用研究组</a>
+<body class="animsition">
+<!-- header start -->
+<header id="header" class="header-fixed">
+      <div class="container clearfix">
+    <div class="row-fluid">
+          <div class="span12">
+                <div class="navbar navbar_">
+                      <div class="container">
+                          <h1 class="brand brand_">
+                             <a href="index.php">
+                                                                                                                   <img alt="$r[title]}" src="uploadfile/2017/0519/20170519035834700.png">
+                                                                                                      </a>
+                          </h1>
+                         <a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">
+                             <span class="burger burger-1 trans"></span>
+                             <span class="burger burger-2 trans-fast"></span>
+                             <span class="burger burger-3 trans"></span>
+                         </a>
+                        <div class="nav-collapse nav-collapse_  collapse">
+                              <ul class="nav sf-menu sf-vertical">
+                                     <li  class="active"><a href="index.php" class="nav0">首页</a></li>
+                                                     
+                                                                      
+                                                                                                                                                                                                                      <li  class="sub-menu"><a href="http://www.zhenleisonggroup.com/list-9-1.html">导师介绍<i class="sf-sub-indicator"></i></a>
+                                                              <ul>
+                                                                                                                                                                                                                                                                                                                                                             
+                                                              </ul>
+                                                         </li>
+                                                                         
+                                                                                                                                                                                                                      <li  class="sub-menu"><a href="http://www.zhenleisonggroup.com/list-42-1.html">研究方向<i class="sf-sub-indicator"></i></a>
+                                                              <ul>
+                                                                                                                                                                                                                                                                                                                                                             
+                                                              </ul>
+                                                         </li>
+                                                                         
+                                                                                                                                                                                                                      <li  class="sub-menu"><a href="http://www.zhenleisonggroup.com/list-43-1.html">发表文章<i class="sf-sub-indicator"></i></a>
+                                                              <ul>
+                                                                                                                                                                                                                                                                                                                                                             
+                                                              </ul>
+                                                         </li>
+                                                                         
+                                                                                                                                                                                                                      <li  class="sub-menu"><a href="http://www.zhenleisonggroup.com/list-44-1.html">课题组成员<i class="sf-sub-indicator"></i></a>
+                                                              <ul>
+                                                                                                                                                                                                                                                       
+                                                                             <li  ><a href="http://www.zhenleisonggroup.com/list-47-1.html">课题组助理</a></li>
+                                                                                                               
+                                                                             <li  ><a href="http://www.zhenleisonggroup.com/list-48-1.html">在读成员</a></li>
+                                                                                                               
+                                                                             <li  ><a href="http://www.zhenleisonggroup.com/list-49-1.html">毕业成员</a></li>
+                                                                                                                                                                                                                     
+                                                              </ul>
+                                                         </li>
+                                                                         
+                                                                                                                                                                                                                      <li  class="sub-menu"><a href="http://www.zhenleisonggroup.com/list-22-1.html">实验室照片<i class="sf-sub-indicator"></i></a>
+                                                              <ul>
+                                                                                                                                                                                                                                                                                                                                                             
+                                                              </ul>
+                                                         </li>
+                                                                         
+                                                                                                                                                                                                                      <li  class="sub-menu"><a href="http://www.zhenleisonggroup.com/en">English<i class="sf-sub-indicator"></i></a>
+                                                              <ul>
+                                                                    
+                                                              </ul>
+                                                         </li>
+                                                                                       
+                               </ul>
+                          </div>
+                      </div>
+            </div>
+      </div>
+        </div>
+  </div>
+    </header>
+    
+    
+<script>
+$(document).ready(function (){	
+	$("li.active2").parent("ul").parent("li").addClass("active");
+});
+</script>      
+         <div class="bg-content imgbox" style="background-image:url(uploadfile/2017/0510/20170510104837968.jpg);">
+     <div class="container">
+    <div class="row">
+      <div class="span12"> 
+            <!-- slider -->
+            <div class="flexslider">
+                 <ul class="slides">
+                                                  
+                             <li> <img src="uploadfile/2019/0311/20190311112855825.jpg" alt="" > </li>
+                           
+                             <li> <img src="uploadfile/2019/0311/20190311092458371.jpg" alt="" > </li>
+                           
+                             <li> <img src="uploadfile/2019/0311/20190311092535586.jpg" alt="" > </li>
+                           
+                             <li> <img src="uploadfile/2019/0311/20190311092628797.jpg" alt="" > </li>
+                           
+                             <li> <img src="uploadfile/2019/0311/20190311093057631.jpg" alt="" > </li>
+                                                                   </ul>
+            </div>
+            <span id="responsiveFlag"></span>
+        </div>
     </div>
-    <div>
-        <ul class="nav navbar-nav">
-            <li class="li1"><a href="#">个人简介</a></li>
-            <li class="dropdown right">
-                <a href="#" data-toggle="dropdown">
-                    小组动态 <b class="caret"></b>
-                </a>
-                <ul class="dropdown-menu list">
-                    <li class="li2"><a href="#">学术动态</a></li>
-                    <li class="li3"><a href="#">小组生活</a></li>
-                </ul>
-            </li>
-            <li class="dropdown right">
-                <a href="#" data-toggle="dropdown">
-                    研究/论文 <b class="caret"></b>
-                </a>
-                <ul class="dropdown-menu list">
-                    <li class="li4"><a href="#">课题</a></li>
-                    <li class="li5"><a href="#">论文</a></li>
-                </ul>
-            </li>
-            <li class="right li6"><a href="#">小组成员</a></li>
-            <li class="right li7"><a href="#">工具</a></li>
+</div>
+      
+<!-- content -->      
+<div id="content" class="content-extra">
 
-        </ul>
-    </div>
-    </div>
-</nav>
-    <div class="parentDiv">
-    	
-    	<div class="div1 container-fluid">
-    		
-    			<div class="row">
-    				<div class="col-lg-4 col-md-4 imageteacher">
-                        <img class="photo" src="/static/img/chenwei.jpg">
-                        <img class="photo" src="/static/img/team_2018.jpg">
-                        <img class="photo" src="/static/img/team_2019.jpg">
-                        <img class="photo" src="/static/img/team_2020.jpg">
-
-  
-                    </div>
-    				<div class="col-lg-8 col-md-8 information">
-                        <div class="content">
-                <h3>个人简介：</h3>
-                            <br>陈伟: 副教授，博士，九三学社社员，硕士/博士生导师</br>
-                                中国矿业大学（北京） 地球科学与测绘工程学院 遥感与地理信息系 副主任</br>
-                                中国科普作家协会应急安全与减灾科普专业委员会委员</br>
-                                办公室：中国矿业大学（北京） 综合楼605室</br>
-                                电话：010-62339335/13811950643</br>
-                                邮箱：chenw@cumtb.edu.cn</br>
-                                &emsp;&emsp;&emsp;chenweibnu@126.com</p>
-                <h3>研究兴趣：</h3>
-                            <p>脆弱区生态环境遥感、大气环境遥感及应用、卫星遥感辐射定标</p>
-                <h3>招生专业：</h3>
-                            <h4>&emsp;&emsp;2021级拟招生5-6人</h4>
-                            <h4>&emsp;&emsp;学术型：</h4>
-                            <p>大地测量学与测量工程:081601</br>
-                                摄影测量与遥感:081602</br>
-                                地图制图学与地理信息工程:081603</p>
-                            <h4>&emsp;&emsp;专业型：</h4>
-                            <p>测绘工程：085215</p>
-      <!--                      <b class="fcolor">&emsp;&emsp;2020年计划招收硕士研究生5名</b>   -->
-                <h3>教育经历：</h3>
-                            <p>2011.10~2012.10 马里兰大学 大气与海洋科学系 访问学者（导师：李占清教授）</br>
-                                2008.09~2013.07 北京大学 地球与空间科学学院 博士（导师：晏磊教授）</br>
-                                2004.08~2008.07 北京师范大学 地理学与遥感科学学院 学士</p>
-                <h3>学术服务：</h3>
-                            <p>2018.10 ~ 2019.3 International Journal of Remote Sensing,  Guest Editor</br>
-                               2016   ~ 今    Committee Member of Working Groups of ISPRS Commission III (Remote Sensing of Atmospheric Environment)</br>
-                               2013 ~ 今：担任以下期刊审稿人</br>
-                            Environmental International, Atmospheric Environment, Air Quality, Atmosphere and Health, Remote Sensing, Remote Sensing Letters, European Journal of Remote Sensing, International Journal of Environmental Research and Public Health, Atmospheric Pollution Research, International Journal of Remote Sensing, Science of the Total Environment</p>
-
-                <h3>近期进展：</h3>
- <!--                           <p>1.课题组硕士生王恒阳有关遥感传感器绝对辐射定标论文已被SCI期刊（Journal of Spatial Science）接收并在线刊出：</br>
-                             Wei Chen & Hengyang Wang (2019) Absolute radiometric calibration and validation of a UAV multispectral sensor: a comparison between the irradiance-based method and reflectance-based method, Journal of Spatial Science, DOI: 10.1080/14498596.2019.1658651</br>
-                            下载链接:<a href="https://www.tandfonline.com/doi/full/10.1080/14498596.2019.1658651" target="_blank">https://www.tandfonline.com/doi/full/10.1080/14498596.2019.1658651</a></p>
-
-                            <p>2.祝贺课题组硕士生田慧敏同学获得2019年度研究生国家奖学金</p>
-                            <p>3.课题组有关气溶胶对全天空偏振分布影响研究成果发表在SCI期刊《International Journal of Remote Sensing》（IF=2.493）</br>
-                                下载链接：<a href="https://www.tandfonline.com/doi/full/10.1080/01431161.2019.1685724" target="_blank">https://www.tandfonline.com/doi/full/10.1080/01431161.2019.1685724</a> </br>
-Wei Chen, Shuang Bai, Dexuan Wang, Haimeng Zhao, Hao Sun, Lina Yi, Hengqian Zhao, Donghui Xie, Jouni Peltoniemi & Zhanqing Li (2019) Aerosol-induced changes in sky polarization pattern: potential hint on applications in polarimetric remote sensing, International Journal of Remote Sensing, DOI: 10.1080/01431161.2019.1685724</p>
-                            <p>4.课题组有关黑碳气溶胶辐射强迫计算新方法论文被SCI期刊（Air Quality, Atmosphere & Health，影响因子2.297）接收并在线发表：
-                                Chen, W., Wang, H., Zhao, H. et al. Google Earth Engine–assisted black carbon radiative forcing calculation over a heavy industrial city in China. Air Qual Atmos Health (2020) doi:10.1007/s11869-020-00796-9</br>
-                                下载链接：<a href="https://link.springer.com/article/10.1007/s11869-020-00796-9" target="_blank">https://link.springer.com/article/10.1007/s11869-020-00796-9</a>
-                            </p>
-                            <p>5.课题组有关黑碳气溶胶特性的研究论文已经被SCI期刊（Science of the Total Environment，影响因子5.589）接收并在线刊出：</br>
-                                Chen, W.; Tian, H.; Zhao, H.; Qin, K. Multichannel characteristics of absorbing aerosols in xuzhou and implication of black carbon. Sci Total Environ 2020, 714, 136820.</br>
-                                下载链接：<a href="https://www.sciencedirect.com/science/article/pii/S0048969720303302" target="_blank">https://www.sciencedirect.com/science/article/pii/S0048969720303302</a>
-                            </p>   -->
-
-                </div>
-                        
-                    </div>
-    			</div>
-            <br>
-             <div class="foot">
-                 <p>
-                     <a href="http://beian.miit.gov.cn/">京ICP备19019304号-1</a>
-                 </p>
-                 <a href="./SPE4.html" target="_blank">第四届全国偏振与椭偏测量研讨会暨国际偏振会议</a>
-             </div>
-    	</div>
-
-
-
-    	<div class="div2 container-fluid">
+    <div class="ic"></div>
+    <!--<div class="row-0 pro">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-1 col-md-1"></div>
-                <div class="col-lg-10 col-md-10 teamResult">
-                    <div class="panel panel-success">
-                            <div class="panel-heading">
-                                <div class="title"><h3 class="panel-title">课题组李广超，毕鸿儒，张学鹏，王哲，宋歌，徐雅梦六位同学参加2020全国测绘科学与技术博士生学术论坛</h3></div>
-                                <div class="time"><h6>2020.11.16</h6></div>
+                                                                          <article class="span12 title">
+                                    <div class="row">
+                                        <span class="title-z span12">导师介绍</span>
+                                        <span class="title-y span12">Zhenlei Song</span>
+                                    </div>
+                               </article>                              
+                                <div class="span6">
+                                    <div class="row-fluid">
+                                        <div class="span10 offls1 ">
+                                             <div class="row-fluid pro1"><div class=" span10 pro-tit">导师介绍</div><a href="list-9-1.html" class="span2 pro-mo">详 情 >></a></div>
+                                             <div class="pro-nr">　宋振雷&nbsp;&nbsp; 现任四川大学华西药学院科研副院长，四川大学华西药学院药物化学系教授，博士生导师。2000年，兰州大学化学系基地班本科毕业后，继续硕博连读，师从中国科学院院士涂永强教授进行有机化学专业研究，并于2005年获得理学博士学位。2005至2008年，赴美国明尼苏达大学化学系、后转至威斯康星大学麦迪逊分校药学院从事博士后研究，师从Richard. P Hsung 教授。2008年3月回国后，受聘于四川大学华西药学院，从事独立的科学研究工作，并于2012年7月晋升为教授。
+</div>
+                                        </div>
+                                     </div>
+                                </div> 
+                                <div class="span6">
+                                   <div class="row-fluid">
+                                         <div class="span10 offls1">
+                                            <div class="ivideoCon">
+                                                    <a   class="videoMore"><img src="uploadfile/2017/0517/20170517035647893.jpg"  alt=""/>
+                                                       <div class="videotit">VIDEO</div>
+                                                        <div class="videotic">视频展示</div>
+                                                        <div class="videotbg"></div>
+                                                        <div class="videotbc"></div>
+                                                    </a> 
+                                            </div>
+                                            <div class="theme-popover">
+                                                <a href="javascript:;" title="关闭" class="vidclose"></a>
+                                                <div id="videocontainer">
+                                                    <div id="videowrap"></div>
+                                                </div>
+                                             </div>
+                                            <div class="theme-popover-mask"></div>
+                                         </div> 
+                                  </div>            
+                               </div>
+                                                             </div>
+         </div>
+   </div>
+   -->
+  
+
+   <div class="row-2">
+       <div class="container">
+                <div class="row">
+                      <article class="span12 title">
+                            <div class="row">
+                                <span class="title-z span12"><a href="http://www.zhenleisonggroup.com/list-51-1.html">课题组新闻</a></span>
+                                 <span class="title-y span12"><a href="http://www.zhenleisonggroup.com/list-51-1.html">GROUP NEWS</a></span>
                             </div>
-                            <div class="panel-body">
-                                <img src="/static/img/activity/20201116.jpg" style="width:100%;">
-                            </div>
-                        </div>
-                    <div class="panel panel-success">
-                            <div class="panel-heading">
-                                <div class="title"><h3 class="panel-title">课题组王恒阳，徐雅梦两位同学参加第二期全国“地球空间大数据与云计算”研讨会。本次会议主要内容为Google Earth Engine(GEE)学习。GEE是一种行星尺度地理空间分析的云计算平台，它基于Google云计算的强大能力广泛用于自然灾害，水资源管理，气候检测和环境保护等社会问题。</h3></div>
-                                <div class="time"><h6>2019.05.24</h6></div>
-                            </div>
-                            <div class="panel-body">
-                                <img src="/static/img/activity/20190524.jpg" style="width:100%;">
-                            </div>
-                        </div>
-                    <div class="panel panel-success">
-                            <div class="panel-heading">
-                                <div class="title"><h3 class="panel-title">课题组王恒阳，白爽，李艾珈，毕鸿儒四位同学参加1st Regional Conference on Environmental Modeling and Software(Asian Region) —Modelling for Environmental Sustainability: Asia's Next Great Challenge学术会议</h3></div>
-                                <div class="time"><h6>2019.05.18</h6></div>
-                            </div>
-                            <div class="panel-body">
-                                <img src="/static/img/activity/20190518.jpg" style="width:100%;">
-                            </div>
-                        </div>
+                       </article>
+                      <ul class="thumbnails thumbnails-1">
+                                                                                               <li class="span3">
+                                      <div class="thumbnail thumbnail-1">
+                                          <a href="/show-51-223-1.html" class="maskimg" ><img  src="uploadfile/2020/1126/20201126052552321.jpg" class="up" alt=""></a>
+                                          <section> 
+                                                <a href="/show-51-223-1.html" class="newstit">祝贺2020届博士褚志文顺利毕业！</a>
+                                                <div class="meta">
+                                                    <time datetime="2012-11-09" class="date-1"><i class="icon-calendar newsbz"></i>2020.11.26</time>
+                                                    <div class="name-author"><i class="icon-user newsbz"></i> dggadmin</div>
+                                                </div> 
+                                                <div class="clear"></div>
+                                                <p>2020届博士生 褚志文通过答辩，顺利毕业！</p>
+                                          </section>
+                                      </div>
+                                   </li>
+                                                                    <li class="span3">
+                                      <div class="thumbnail thumbnail-1">
+                                          <a href="/show-51-212-1.html" class="maskimg" ><img  src="uploadfile/2020/0704/20200704030856666.jpg" class="up" alt=""></a>
+                                          <section> 
+                                                <a href="/show-51-212-1.html" class="newstit">祝贺2020届硕士顺利毕业！</a>
+                                                <div class="meta">
+                                                    <time datetime="2012-11-09" class="date-1"><i class="icon-calendar newsbz"></i>2020.07.04</time>
+                                                    <div class="name-author"><i class="icon-user newsbz"></i> dggadmin</div>
+                                                </div> 
+                                                <div class="clear"></div>
+                                                <p>2020届硕士生 刘顺发、王润平、陈毅、唐萧萧、胡天宝 通过答辩，...</p>
+                                          </section>
+                                      </div>
+                                   </li>
+                                                                    <li class="span3">
+                                      <div class="thumbnail thumbnail-1">
+                                          <a href="/show-51-211-1.html" class="maskimg" ><img  src="uploadfile/2020/0623/20200623112254772.jpg" class="up" alt=""></a>
+                                          <section> 
+                                                <a href="/show-51-211-1.html" class="newstit">祝贺刘顺发、杨宇帆的文章在C...</a>
+                                                <div class="meta">
+                                                    <time datetime="2012-11-09" class="date-1"><i class="icon-calendar newsbz"></i>2020.06.23</time>
+                                                    <div class="name-author"><i class="icon-user newsbz"></i> dggadmin</div>
+                                                </div> 
+                                                <div class="clear"></div>
+                                                <p>祝贺刘顺发、杨宇帆的文章   &quot;ArNMeCH(SiMe3)2: a useful pre...</p>
+                                          </section>
+                                      </div>
+                                   </li>
+                                                                    <li class="span3">
+                                      <div class="thumbnail thumbnail-1">
+                                          <a href="/show-51-209-1.html" class="maskimg" ><img  src="uploadfile/2020/0518/20200518124034216.jpg" class="up" alt=""></a>
+                                          <section> 
+                                                <a href="/show-51-209-1.html" class="newstit">祝贺胡天宝、黄丽英的文章在O...</a>
+                                                <div class="meta">
+                                                    <time datetime="2012-11-09" class="date-1"><i class="icon-calendar newsbz"></i>2020.05.18</time>
+                                                    <div class="name-author"><i class="icon-user newsbz"></i> dggadmin</div>
+                                                </div> 
+                                                <div class="clear"></div>
+                                                <p>祝贺胡天宝、黄丽英的文章   &quot; Synthesis of Unsymmetrical ...</p>
+                                          </section>
+                                      </div>
+                                   </li>
+                                                           
+                     </ul>
                 </div>
-                <div class="col-lg-1 col-md-1"></div>
-            </div>
+          </div>
+</div>
+
+ <div class="row-3" style=" padding:20px 0px 20px 0px">
+ 
+    <div class="container">
+      <div class="row">
+        <article class="span12">
+                <!-- <div class="leadtit"><div class="ldt">联系我们</div></div>-->
+                <div class="wrapper">
+                    <div class="iplist">
+                                                                                         <div class="row">
+<div class="span12">
+<div class="span3"><img alt="" src="img/ico-em.png" />邮箱：zhenleisong@scu.edu.cn</div>
+<div class="span5"><img alt="" src="img/ico-dz.png" />地址：成都市武侯区人民南路三段17号四川大学华西校区药学大楼</div>
+<div class="span3"><img alt="" src="img/ico-dh.png" />电话：028-85501876</div>
+</div>
+</div>
+      
+                                                                             </div>
+                </div>
+            </article>
+      </div>
         </div>
-        <div class="div3">
-
-        <table class="group_life">
-            <tr>
-                <td class="life_td life1"><h3>2018团建</h3></td>
-                <td class="life_td"><img class="img-responsive" src="/static/img/group_life/2018teambuilding/1.jpg"></td>
-                <td class="life_td"><img class="img-responsive" src="/static/img/group_life/2018teambuilding/2.jpg"></td>
-                <td class="life_td"><img class="img-responsive" src="/static/img/group_life/2018teambuilding/3.jpg"></td>
-
-            </tr>
-            <tr>
-                <td class="life_td life1"><h3>16级毕业照</h3></td>
-                <td class="life_td"><img class="img-responsive" src="/static/img/group_life/2019gratuade/1.jpg"></td>
-                <td class="life_td"><img class="img-responsive" src="/static/img/group_life/2019gratuade/2.jpg"></td>
-                <td class="life_td"><img class="img-responsive" src="/static/img/group_life/2019gratuade/3.jpg"></td>
-
-            </tr>
-            <tr>
-                <td class="life_td life1"><h3>2019团建</h3></td>
-                <td class="life_td"><img class="img-responsive" src="/static/img/group_life/2019teambuilding/1.jpg"></td>
-                <td class="life_td"><img class="img-responsive" src="/static/img/group_life/2019teambuilding/2.jpg"></td>
-                <td class="life_td"><img class="img-responsive" src="/static/img/group_life/2019teambuilding/3.jpg"></td>
-
-            </tr>
-            <tr>
-                <td class="life_td life1"><h3>2020团建</h3></td>
-                <td class="life_td"><img class="img-responsive" src="/static/img/group_life/2020teambuilding/1.jpg"></td>
-                <td class="life_td"><img class="img-responsive" src="/static/img/group_life/2020teambuilding/2.jpg"></td>
-                <td class="life_td"><img class="img-responsive" src="/static/img/group_life/2020teambuilding/3.jpg"></td>
-
-            </tr>
-
-        </table>
-            <div id="windy"></div>
+  </div>
     </div>
-    	<div class="div4">
-         <div class="classes">
-             <h3>课题研究：</h3>
-                <p>2018.01 - 2020.12 国家自然科学基金 青年基金项目. 煤烟与沙尘混合非球形气溶胶偏振散射特性及其辐射强迫效应研究（主持）</p>
-                <p>2019.03 – 2021.03 广西壮族自治重点研发项目. 广西自然保护区生态环境遥感监测与技术示范（参与，课题负责人）</p>
-                <p>2017.07 - 2020.12 国家重点研发项目.大气边界层影响干沉降的过程与机制（参与）</p>
-                <p>2016.07 - 2021.06 国家重点研发项目.典型资源环境要素识别提取与定量遥感技术（参与）</p>
-                <p>2015.01 - 2018.12北京市优秀人才项目：利用偏振遥感数据反演北京地区PM2.5及其地面验证研究（主持）</p>
-                <p>2019.01 -2019.12 国家自然科学基金（地区基金）. 轻小型无人机遥感绝对辐射定标不确定度优化及归一化模型研究 （参与）</p>
-                <p>2019.01 - 2021.12 北京市自然科学基金面上项目. 北京地区煤烟源与沙尘源气溶胶散射性质与辐射强迫研究 （主持)</p>
-
-         </div>   
+   </div>
+<!-- footer -->
+<footer>
+      <div class="container clearfix">
+        <div class="row">
+            <article class="span8">
+              <div class="privacy pull-left">
+                                                                   Copyright &copy; 2017 &nbsp; &nbsp;四川大学&nbsp; All rights reserved. &nbsp;<a href="http://zhenleisong.get.vip/en/index.php"> <strong>English</strong></a>      
+                                                       </div>
+            </article>
+            <div class="span4 iefont">
+            <ul class="list-social pull-right">
+                  <li><a class="icon-1" href="http://weibo.com/" target="_blank"></a></li>
+                  <li><a class="icon-2" href="http://www.028dgg.net/index.php?g=Wap&m=Index&a=index&token=ldrkib1433739960" target="_blank"></a></li>
+                  <li><a class="icon-3" href="#myModal" data-toggle="modal"></a></li>
+                  <li><a class="icon-4 backtop" href="javascript:void(0);"></a></li>
+           </ul>
         </div>
-    	<div class="div5">
-            <div class="articles">
-                <h3>代表论文：</h3>
-                    <p>[1].Wei Chen, Huimin Tian, and Kai Qin. Black Carbon Aerosol in the Industrial City of Xuzhou, China: Temporal Characteristics and Source Appointment[J]. Aerosol and Air Quality Research. 2019, 19(4): 794-811. DOI: 10.4209/aaqr.2018.07.0245. (SCI检索)</p>
-                    <p>[2].W. Chen, A. J. Li, and F. Zhang. Roadside atmospheric pollution: still a serious environmental problem in Beijing, China[J]. Air Quality Atmosphere and Health. 2018, 11(10): 1203-1216. DOI: 10.1007/s11869-018-0620-2. (SCI检索)</p>
-                    <p>[3].Aiping Fan, Wei Chen, Long Liang, Wenbin Sun, Yi Lin, Huizheng Che, and Xuesheng Zhao. Evaluation and Comparison of Long-Term MODIS C5.1 and C6 Products against AERONET Observations over China[J]. Remote Sensing. 2017, 9(12). DOI: 10.3390/rs9121269. (SCI检索)</p>
-                    <p>[4].W. Chen, A. P. Fan, and L. Yan. Performance of MODIS C6 Aerosol Product during Frequent Haze-Fog Events: A Case Study of Beijing[J]. Remote Sensing. 2017, 9(5). DOI: 10.3390/rs9050496. (SCI检索)</p>
-                    <p>[5].Wei Chen, Hongzhao Tang, Haimeng Zhao, and Lei Yan. Analysis of Aerosol Properties in Beijing Based on Ground-Based Sun Photometer and Air Quality Monitoring Observations from 2005 to 2014[J]. Remote Sensing. 2016, 8(2): 110. DOI: 10.3390/rs8020110. (SCI检索)</p>
-                    <p>[6].W. Chen, L. Yan, N. Ding, M. D. Xie, M. Lu, F. Zhang, Y. X. Duan, and S. Zong. Analysis of Aerosol Radiative Forcing over Beijing under Different Air Quality Conditions Using Ground-Based Sun-Photometers between 2013 and 2015[J]. Remote Sensing. 2016, 8(6). DOI: 51010.3390/rs8060510. (SCI检索)</p>
-                    <p>[7].Wei Chen, Hongzhao Tang, and Haimeng Zhao. Urban air quality evaluations under two versions of the national ambient air quality standards of China[J]. Atmospheric Pollution Research. 2016, 7(1): 49-57. DOI: 10.1016/j.apr.2015.07.004. (SCI检索)</p>
-                    <p>[8].W. Chen, H. M. Zhao, Z. Q. Li, X. Jing, and L. Yan. Uncertainty Evaluation of an In-Flight Absolute Radiometric Calibration Using a Statistical Monte Carlo Method[J]. IEEE Transactions on Geoscience and Remote Sensing. 2015, 53(5): 2925-2934. DOI: 10.1109/Tgrs.2014.2366779. (SCI检索)</p>
-                    <p>[9].Wei Chen, Fusheng Wang, Guofeng Xiao, Kai Wu, and Shixuan Zhang. Air Quality of Beijing and Impacts of the New Ambient Air Quality Standard[J]. Atmosphere. 2015, 6(8): 1243. DOI: 10.3390/atmos6081243. (SCI检索)</p>
-                    <p>[10].Wei Chen, Hongzhao Tang, and Haimeng Zhao. Diurnal, weekly and monthly spatial variations of air pollutants and air quality of Beijing[J]. Atmospheric Environment. 2015, 119: 21-34. DOI: 10.1016/j.atmosenv.2015.08.040. (SCI检索)</p>
-                    <p>[11].Wei Chen, Lei Yan, and Haimeng Zhao. Seasonal Variations of Atmospheric Pollution and Air Quality in Beijing[J]. Atmosphere. 2015, 6(11): 1753. DOI: 10.3390/atmos6111753. (SCI检索)</p>
-                    <p>[12].Wei Chen, Lei Yan, Zhanqing Li, Xin Jing, Yini Duan, and Xiaoxiong Xiong. In-flight absolute calibration of an airborne wide-view multispectral imager using a reflectance-based method and its validation[J]. International Journal of Remote Sensing. 2013, 34(6): 1995-2005. (SCI检索)</p>
-                    <p>[13].Wei Chen, Hengyang Wang, Haimeng Zao & Kai Qin(2020) Google Earth Engine–assisted black carbon radiative forcing calculation over a heavy industrial city in China, Air Quality, Atmosphere, & Health, DOI:10.1007/s11869-020-00796-9（SCI检索，在线发表）</p>
-                    <p>[14].Wei Chen, Shuang Bai, Dexuan Wang, Haimeng Zhao, Hao Sun, Lina Yi, Hengqian Zhao, Donghui Xie, Jouni Peltoniemi & Zhanqing Li (2019) Aerosol-induced changes in sky polarization pattern: potential hint on applications in polarimetric remote sensing, International Journal of Remote Sensing, DOI: 10.1080/01431161.2019.1685724（SCI检索，在线发表）</p>
-                    <p>[15].Wei Chen & Hengyang Wang (2019) Absolute radiometric calibration and validation of a UAV multispectral sensor: a comparison between the irradiance-based method and reflectance-based method, Journal of Spatial Science, DOI: 10.1080/14498596.2019.1658651 （SCI检索，在线发表）</p>
-                    <p>[16].Chen, W.; Tian, H.; Zhao, H.; Qin, K. Multichannel characteristics of absorbing aerosols in xuzhou and implication of black carbon. Sci Total Environ 2020, 714, 136820. DOI: 10.1016/j.scitotenv.2020.136820 (SCI检索)</p>
-                <h3>专著：</h3>
-                    <p>晏磊, 陈伟,相云, 杨彬, 赵云升. 偏振遥感物理. 科学出版社，2014.s</p>
+        <div class="clear"></div>
+            <!-- 2wmModal -->
+            <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">扫描二维码！</h3>
+              </div>
+              <div class="modal-body">
+                <p class="modimg">
+                                                
+                            <img src="uploadfile/2015/0717/20150717041339389.png"  alt=""/>
+                                                             </p>
+              </div>
             </div>
-        </div>
-    	<div class="div6">
-            <div class="team">
-                <!--<h3>在读博士生</h3>-->
-                <!--<table class="members">-->
-                    <!---->
-                <!--</table>-->
-                <h3>在读博士研究生</h3>
-           <table class="members">
-
-
-                <tr class="th2">
-                <td class="grade"><h4>19级</h4></td>
-                    <td>
-
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/doctor19/liguangchao.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal19-1-d">
-    李广超
-</button>
-<div class="modal fade" id="myModal19-1-d" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    李广超
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>摄影测量与遥感</p>
-                <h4>邮箱：</h4><p>953069218@qq.com</p>
-                <h4>参与项目</h4><p>广西自然保护区生态环境遥感监测与技术示范</p>
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/doctor19/bihongru.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal18-5">
-        毕鸿儒
-</button>
-<div class="modal fade" id="myModal18-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title" id="myModalLabel">
-                    毕鸿儒
-                </h3>
-            </div>
-            <div class="modal-body">
-
-                <h4>邮箱：</h4><p>18310415061@163.com</p>
-                <h4>研究方向:</h4><p>室内空间优化</p>
-
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                    </td>
-                </tr>
-
-           </table>
-                <h3>在读硕士研究生</h3>
-           <table class="members">
-
-               <tr class="th2"><!--18从这里移走-->
-                <td class="grade"><h4>18级</h4></td>
-                    <td>
-
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master18/baishuang.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal18-1">
-    白爽
-</button>
-<div class="modal fade" id="myModal18-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    白爽
-                </h4>
-            </div>
-            <div class="modal-body">
-
-                <h4>邮箱：</h4><p>1528698932@qq.com</p>
-
-                <h4>主要负责项目:</h4><p>土地利用分类项目</p>
-                <h4>参与项目:</h4><p>种子高光谱特性识别研究项目</p><p>广西自然保护区生态环境遥感监测与技术示范项目</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                       <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master18/zhuyujiao.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal18-2">
-    朱玉娇
-</button>
-<div class="modal fade" id="myModal18-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    朱玉娇
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>地图制图学与地理信息工程</p>
-
-                <h4>邮箱：</h4><p>15621341509@163.com</p>
-                <h4>参与项目:</h4><p>福州智慧宜居项目</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master18/wanghengyang.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal18-3">
-    王恒阳
-</button>
-<div class="modal fade" id="myModal18-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    王恒阳
-                </h4>
-            </div>
-            <div class="modal-body">
-
-                <h4>邮箱：</h4><p>1368651181@qq.com</p>
-                <h4>研究方向:</h4><p>黑碳气溶胶辐射强迫</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master18/fuqinmin.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal18-4">
-        傅钦民
-</button>
-<div class="modal fade" id="myModal18-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title" id="myModalLabel">
-                    傅钦民
-                </h3>
-            </div>
-            <div class="modal-body">
-
-
-                <h4>邮箱：</h4><p>fuqinmin@gmail.com</p>
-                <h4>研究方向:</h4><p>环境遥感</p>
-                <h4>研究成果:</h4><p>遥感数据驱动的宁夏沿黄城市带生态环境时空演变过程与扰动研究，宁夏回族自治区重点研发计划（一般项目）</p>
-                                 <p>广西重点研发计划项目“广西自然保护区生态环境遥感监测与技术示范”（项目编号桂科AB18050014）</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-
-
-                    </td>
-                </tr><!--这里结束-->
-               <tr class="th2"><!--19从这里开始移走-->
-                <td class="grade"><h4>19级</h4></td>
-                    <td>
-
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master19/zhangxuepeng.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal19-1">
-    张学鹏
-</button>
-<div class="modal fade" id="myModal19-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    张学鹏
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>大地测量学与测量工程</p>
-                <h4>邮箱</h4><p>996588861@qq.com</p>
-                <h4>参与项目：</h4><p>典型资源环境要素识别提取与定量遥感技术</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master19/wangzhe.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal19-2">
-    王哲
-</button>
-<div class="modal fade" id="myModal19-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    王哲
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>大地测量学与测量工程</p>
-                <h4>邮箱</h4><p> 1148792113@qq.com</p>
-                <h4>参与项目：</h4><p>广西自然保护区生态环境遥感监测与技术示范</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master19/songge.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal19-3">
-    宋歌
-</button>
-<div class="modal fade" id="myModal19-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                   宋歌
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>测绘工程</p>
-                <h4>邮箱</h4><p>736293416@qq.com</p>
-                <h4>参与项目：</h4><p>典型资源环境要素识别提取与定量遥感技术</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master19/meiyongkang.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal19-4">
-    梅永康
-</button>
-<div class="modal fade" id="myModal19-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                   梅永康
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>测绘工程</p>
-                <h4>邮箱</h4><p>362151647@qq.com</p>
-                <h4>参与项目：</h4><p>热红外数据处理与多维数据融合算法研究</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master19/dongxiaohan.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal19-5">
-    董晓晗
-</button>
-<div class="modal fade" id="myModal19-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    董晓晗
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>测绘工程</p>
-                <h4>邮箱</h4><p>DXH13140@163.com</p>
-                <h4>参与项目：</h4><p>应用多源卫星遥感获取高分辨率土地利用类型资料</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master19/xuyameng.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal19-6">
-    徐雅梦
-</button>
-<div class="modal fade" id="myModal19-6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    徐雅梦
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>测绘工程</p>
-                <h4>邮箱</h4><p>767306336@qq.com</p>
-                <h4>参与项目：</h4><p>应用多源卫星遥感获取高分辨率土地利用类型资料</p>
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-
-
-
-                    </td>
-                </tr><!--从这里结束-->
-               <tr class="th2"><!--20从这里开始移走-->
-                <td class="grade"><h4>20级</h4></td>
-                    <td>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master20/yanglan.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal20-1">
-    杨澜
-</button>
-<div class="modal fade" id="myModal20-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    杨澜
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>地图制图学与地理信息工程</p>
-                <h4>邮箱</h4><p>2014930449@qq.com</p>
-                <h4>参与项目：</h4><p>无</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master20/shixinyu.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal20-2">
-    时新宇
-</button>
-
-<div class="modal fade" id="myModal20-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    时新宇
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>测绘工程</p>
-                <h4>邮箱</h4><p> 732021367@qq.com</p>
-                <h4>参与项目：</h4><p>无</p>
-
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master20/zhangfengjiao.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal20-3">
-        张凤娇
-</button>
-<div class="modal fade" id="myModal20-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                   张凤娇
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>大地测量学</p>
-                <h4>邮箱</h4><p>jiao970924@126.com</p>
-                <h4>参与项目：</h4><p>无</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master20/bipengshuai.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal20-4">
-    毕朋帅
-</button>
-<div class="modal fade" id="myModal20-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                   毕朋帅
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>测绘工程</p>
-                <h4>邮箱</h4><p>753786247@qq.com</p>
-                <h4>参与项目：</h4><p>无</p>
-
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master20/zhengwei.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal20-5">
-    郑伟
-</button>
-<div class="modal fade" id="myModal20-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    郑伟
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>测绘工程</p>
-                <h4>邮箱</h4><p>1104218774@qq.com</p>
-                <h4>参与项目：</h4><p>无</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-
-
-
-
-                    </td>
-                </tr><!--从这里结束-->
-
-
-           
-               
-           </table>
-                <h3>已毕业硕士研究生</h3>
-           <table class="members">
-
-
-                <tr class="th2">
-                <td class="grade"></td>
-                    <td>
-
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master15/fanaiping.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal15-1">
-    范爱平（15级）
-</button>
-<div class="modal fade" id="myModal15-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    范爱平
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>大地测量学与测量工程</p>
-                <h4>本科毕业院校：</h4><p>成都理工大学</p>
-                <h4>联系方式：</h4><p>15910891685</p>
-                <h4>邮箱：</h4><p>fap_fanaiping@163.com</p>
-                <h4>研究方向：</h4><p>大气遥感</p>
-                <h4>研究成果：</h4><p>Evaluation and Comparsion of Long-term MODIS C5.1 and C6 Products against AERONET Observations over China.</p>
-                                  <p>中国地区MODIS长时间序列气溶胶产品综合评价分析</p>
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-
-  <div class="img">
-    <img src="/static/img/master16/weilianshuang.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal16-1">
-    魏廉爽（16级）
-</button>
-<div class="modal fade" id="myModal16-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    魏廉爽
-                </h4>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>测绘工程</p>
-                <h4>本科毕业院校：</h4><p>河北地质大学</p>
-                <h4>联系方式：</h4><p>18801035516</p>
-                <h4>邮箱</h4><p>wls920306@126.com</p>
-                <h4>研究方向:</h4><p>定量遥感</p>
-                <h4>研究成果：</h4><p>基于最小反射率法的资源三号影像大气校正研究</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                         <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master17/liaijia.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal17-1">
-    李艾珈（17级）
-</button>
-<div class="modal fade" id="myModal17-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title" id="myModalLabel">
-                    李艾珈
-                </h3>
-            </div>
-            <div class="modal-body">
-                <h4>邮箱</h4><p>aijia1712@126.com</p>
-
-                <h4>负责小组项目：</h4><p>GLASS数据相关应用分析研究</p>
-                <p>广西自然保护区生态环境遥感监测与技术示范</p>
-                <p>种子高光谱特性识别研究</p>
-                <h4>参与小组项目：</h4><p>应用多源卫星遥感获取高分辨率土地利用类型资料</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-                        <div class="responsive">
-  <div class="img">
-    <img src="/static/img/master17/tianhuimin.jpg" alt="图片文本描述" width="150" height="165">
-    <div class="desc"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal17-2">
-    田慧敏（17级）
-</button>
-<div class="modal fade" id="myModal17-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title" id="myModalLabel">
-                    田慧敏
-                </h3>
-            </div>
-            <div class="modal-body">
-                <h4>专业：</h4><p>地图制图学与地理信息工程专业</p>
-                <h4>邮箱：</h4><p>tianhuimin_0123@163.com</p>
-                <h4>研究方向:</h4><p>大气环境遥感</p>
-                <h4>研究成果:</h4><p>徐州地区黑碳气溶胶污染特征及其潜在源区贡献分析</p><p>徐州地区吸收性气溶胶的多波段特性</p>
-
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
-                </button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal -->
-</div>
-</div>
-  </div>
-                    </div>
-
-
-                    </td>
-                </tr>
-
-
-           
-               
-           </table>
-                <h3>本科生</h3>
-                <table class="members">
-
-
-                <tr class="th2">
-                <td class="grade1"><h4>指导本科毕业论文（设计）:</h4></td>
-                    <td>
-                        <p>2010级：杨志刚  车通  白亚林</p>
-                        <p>2011级：赵帅阳 何丹丹 邰文飞 吴嫚 邰文飞</p>
-                        <p>2012级：谢艳清 张世璇</p>
-                        <p>2013级：谢梦蝶 张帆 李静泽</p>
-                        <p>2014级：毕鸿儒 王恒阳 张天佑 万昊明 周柏池 许月 周倩</p>
-                        <p>2015级：陈国龙 韩沛文 李开畅 穆宝慧 王丹彤 郝云昊</p>
-
-                    </td>
-                </tr>
-               <tr class="th2">
-                <td class="grade1"><h4>指导大学生创新项目组：</h4></td>
-                    <td>
-                       <p>2012级：王福生 张世璇 肖国峰 吴凯</p>
-                        <p>2013级：丁楠 谢梦蝶 卢明 段永旭 张帆</p>
-                        <p>2014级：梁龙 王恒阳 王司宇 吕仲禹 肖一鸣</p>
-                        <p>2015级：王丹彤 张淑美 李开畅 宋明宇 杨熙</p>
-                        <p>2016级：王德煊 吕子川 郑芃 李歆爽 柳燚龙</p>
-                        <p>2017级：翟丽敏 马可 王号众 王明伟</p>
-                    </td>
-                </tr>
-               <tr class="th2">
-                <td class="grade1"><h4>担任以下本科生全程导师：</h4></td>
-                    <td>
-                        <p>2015级：王丹彤 张淑美 李开畅 宋明宇 杨熙</p>
-                        <p>2016级：王德煊 杨海舰 佟一冬 郑芃 李歆爽</p>
-                        <p>2017级：翟丽敏 马可 张鸿庚 王青芃</p>
-                        <p>2018级：吴晨泽 梅君林 吕鑫 吕玲 朱桐作</p>
-                        <p>2019级：钟源 金泳祺 朱光耀 冯俊凝 孙智棽</p>
-                    </td>
-                </tr>
-
-
-           
-               
-           </table>
-       </div>
-       </div>
-        <div id="windy" class="div7">
-            <iframe src="https://embed.windy.com/embed2.html?lat=32.250&lon=108.193&zoom=4&level=surface&overlay=pressure&menu=&message=true&marker=true&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=39.927&detailLon=116.367&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0">
-            </iframe>
-        </div>
-            
         
     </div>
+  </div>
+    </footer>
+    
+    
+   <!-- <div class="side">
+    <ul>
+        <li><span class="flodh">热线电话</span><div class="sidebox"><span class="dhnr">服务热线<br><i>134-3847-7504</i></span></div></li>
+        <li><span class="flokf">在线客服</span><div class="sidebox"><span class="kfnr">
+        <p>在线客服: <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=516853980&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:270863798:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></p>
+        <p>在线客服: <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=516853980&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:270863798:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></p>
+        </span></div></li>
+        <li><span class="flofx">分 享</span><div class="sidebox"><div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a href="#" class="bds_mshare" data-cmd="mshare" title="分享到一键分享"></a><a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a><a href="#" class="bds_bdxc" data-cmd="bdxc" title="分享到百度相册"></a><a href="#" class="bds_tqf" data-cmd="tqf" title="分享到腾讯朋友"></a><a href="#" class="bds_tsohu" data-cmd="tsohu" title="分享到搜狐微博"></a><a href="#" class="bds_meilishuo" data-cmd="meilishuo" title="分享到美丽说"></a><a href="#" class="bds_mogujie" data-cmd="mogujie" title="分享到蘑菇街"></a><a href="#" class="bds_huaban" data-cmd="huaban" title="分享到花瓣"></a><a href="#" class="bds_ty" data-cmd="ty" title="分享到天涯社区"></a><a href="#" class="bds_kaixin001" data-cmd="kaixin001" title="分享到开心网"></a></div></div></li>
+  </ul>
+</div>-->
 
-
-
-
-
-
-
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<script type="text/javascript" src="js/boot.main.js"></script>
+<script type="text/javascript" src="js/mainfun.js"></script>
+<script type="text/javascript" src="js/maincall.js"></script>
+<script type="text/javascript">jQuery('.row-1.row,.row-2.row,.row-3.row').scrollFade();</script>
 </body>
 </html>
